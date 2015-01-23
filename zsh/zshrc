@@ -18,9 +18,10 @@ source ~/.nvm/nvm.sh
 
 for config_file ($HOME/tochkata/zsh/*.zsh) source $config_file
 
-  
 
-  
+# Os X pbcopy/pbpaste functionality with xsel
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
 
   
   
