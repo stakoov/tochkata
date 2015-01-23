@@ -1,0 +1,35 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+source ~/.nvm/nvm.sh
+
+
+
+# Customize to your needs...
+
+for config_file ($HOME/tochkata/zsh/*.zsh) source $config_file
+
+  
+
+  
+
+  
+  
+######### elixir version manager #####
+export PATH="$HOME/.exenv/bin:$PATH"
+eval "$(exenv init -)"
+
+
+##### brew linux ######
+export PATH="$HOME/.linuxbrew/bin:$PATH"
+export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
