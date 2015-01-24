@@ -140,7 +140,6 @@ build_prompt() {
   prompt_git
   prompt_end
 }
-zstyle ':prezto:module:node:info:version' format 'N:%v'
 zstyle ':prezto:module:ruby:info:version' format '%v'
 if (( $+functions[ruby-info] )); then
     ruby-info
