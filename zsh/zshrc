@@ -29,6 +29,11 @@ alias pbpaste='xsel --clipboard --output'
 export PATH="$HOME/.exenv/bin:$PATH"
 eval "$(exenv init -)"
 
+######### rbenv #############
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+
 
 ##### brew linux ######
 export PATH="$HOME/.linuxbrew/bin:$PATH"
