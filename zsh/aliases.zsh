@@ -39,6 +39,9 @@ alias ve='vim ~/.vimrc'
 alias ze='vim ~/.zshrc'
 alias zr='source ~/.zshrc'
 
+alias tmux='tmux -2'
+
+
 # Git Aliases
 alias gs='git status'
 alias gstsh='git stash'

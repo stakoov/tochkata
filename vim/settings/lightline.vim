@@ -1,5 +1,5 @@
 let g:lightline = {
-      \ 'colorscheme': 'solarized',
+      \ 'colorscheme': 'colorful256',
       \ 'active': {
       \   'left': [ [ 'mode' ],
       \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
@@ -11,6 +11,6 @@ let g:lightline = {
       \ 'component_visible_condition': {
       \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
       \ },
-      \ 'separator': { 'left': '⮀', 'right': '⮂' },
-      \ 'subseparator': { 'left': '⮁', 'right': '⮃' }
+      \ 'separator': { 'left': '<', 'right': '>' },
+      \ 'subseparator': { 'left': '<', 'right': '>' }
       \ }
