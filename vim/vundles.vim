@@ -12,10 +12,7 @@ call vundle#begin()
 Bundle "gmarik/Vundle.vim"
 
 Bundle "pivotal/tmux-config"
-Bundle "trusktr/seti.vim"
-Bundle "gmarik/ingretu"
-Bundle "ciaranm/inkpot"
-Bundle "colorful256.vim"
+
 
 "######## vim nav #########
 Bundle "jistr/vim-nerdtree-tabs.git"
@@ -25,8 +22,12 @@ Bundle "kien/ctrlp.vim"
 
 "######### appearance ###########
 
+
+Plugin 'goatslacker/mango.vim'
+Plugin 'tomasr/molokai'
+Bundle "gmarik/ingretu"
+Bundle "colorful256.vim"
 Bundle "chrisbra/Colorizer.git"
-Bundle "altercation/vim-colors-solarized"
 Bundle "itchyny/lightline.vim"
 Bundle "Keithbsmiley/tmux.vim.git"
 Bundle "morhetz/gruvbox"
@@ -35,6 +36,8 @@ Bundle "morhetz/gruvbox"
 
 "######### LANG suppoert ##########
 
+Plugin 'dsawardekar/ember.vim'
+Plugin 'elixir-lang/vim-elixir'
 Bundle "briancollins/vim-jst"
 Bundle "pangloss/vim-javascript"
 Bundle "rodjek/vim-puppet"
